@@ -4,4 +4,4 @@ python: 2.7
 dist: trusty
 sudo: required
 
-script: python build_ffmpeg.py  --proprietary_codecs true --target_arch x64
+script: python build_ffmpeg.py  --target_arch x64 --nw_version 0.38.3
