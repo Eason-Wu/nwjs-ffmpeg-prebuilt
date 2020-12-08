@@ -18,6 +18,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: npm install, build and test
         run: |
+          git config --system core.longpaths true
           npm install
           node build --arch x64
           node build --arch ia32
