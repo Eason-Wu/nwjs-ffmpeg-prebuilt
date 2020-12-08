@@ -28,7 +28,7 @@ jobs:
           path: 'build/out/*.zip'
 
   build-macos:
-    runs-on: macos
+    runs-on: macOS-latest
     steps:
       - name: Setup Node
         uses: actions/setup-node@v1
